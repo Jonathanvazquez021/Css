@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 70%;
+    height: 300px;
+    margin: 30px auto;
+    /* background: rgb(100,100,250); */
+    background-color:rgb(100, 100, 250);
+    background-image: url(img/spidy.png);
+    background-repeat:no-repeat;
+    background-position:top 10px right 50px;
+    background-position: center;
+    background-size: cover;
+    /*
+    background-size: contain; Escala la imagen al mayor tamaño posible sin ocupar el mayor tamaño. 
+    background-size: cover; Escala la imagen a su mayor tamaño posible en el elemento
+    */
+}
+
+.atachment{
+    width: 100%;
+    height: 100vh;
+    /* height: 400px; */
+    padding: 0.1px;
+    /* margin-top: 100px; */
+    background-image: url('img/img-hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.fixed{
+    background-attachment: fixed; 
+    /*Nos permite modificar que tan fijo es el background 
+    background-attachment: fixed;  la imagen de fondo esta fija relativamente al viewport  y no se mueve al desplazar el contenido del elemento. También queda fija al desplazar la ventana. y se puede usar para efectp parallax 
+    */
+}
+
+.title{
+    font-size: 70px;
+    font-family: 'Arial';
+    text-align: center;
+    color: #fff;
+    margin-top: 250px;
+}
+
+.space{
+    height: 3000px;
+}

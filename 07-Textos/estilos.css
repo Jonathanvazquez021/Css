@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* latter-spacing:; Define el espacio que va haber entre letras */
+/* word-spacing:; Define el espacio que va haber entre cada palabra */
+/* text-shadow Define la sombra de un texto */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Raleway', sans-serif; /*Definir la fuente*/
+}
+
+.card{
+    background-image: 
+    linear-gradient( #2a265fb6, #2a265fb4), 
+    url(background.jpg);
+
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    color: #fff;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+}
+
+
+.title{
+    font-size: 30px;
+    border-bottom: 3px solid #fff;
+    padding: 7px;
+    margin-bottom: 30px;
+}
+
+.text{
+    font-weight: 300;
+    margin-bottom: 15px;
+    line-height: 2;
+    /* text-transform: uppercase; Pone todo en mayusculas */
+    /* text-transform: lowercase; Pone todo en minusculas */
+    text-transform: capitalize; /*Al principio de cada palabra lo va a poner en mayusculas*/
+    /* line-height: ;  Define la altura de cada linea*/
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.cta{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    background: #fff;
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+.h1{
+    text-align: inherit;
+    font-weight: 600 ;
+    font-style: italic;
+}
+
+.copy{
+    padding: 10px 0;
+    font-weight: 300;
+    /* font-style: oblique; Dedine el estilo de las letras*/
+    /* letter-spacing:-1px ; */
+    /* word-spacing:-8px; */
+    /* text-shadow: 3px 3px 6px rgba(0, 0, 0, .5); */
+    /* text-transform: capitalize; */
+    /* font: ; */
+    /* font-variant: small-caps; *  Pone mas grande las mayusculas/
+}
+
+/* .bold{
+    color: crimson;
+    font-weight: 400 pone las letras en negritas;
+    font-style: italic;
+    font-size: 20px define el tamaño de la fuente;
+} */
+
+/* .img{
+    width: 250px;
+} */
+
+.enlace{
+    display: inline-block;
+    color: crimson;
+    text-decoration: line style color; */
+    /* /* text-decoration-line: underline;
+    /* text-decoration-line: overline; Poner una linea encima del texto
+    text-decoration-line: line-through; Tacha el texto
+    text-decoration-style: ; Define el estilo de la linea
+    text-decoration-style:wavy ; Curvea el estilo de la linea
+    text-decoration-color: crimson;
+    text-decoration: none; */
+    border: 1px solid;
+    padding: 10px 25px;
+}
+

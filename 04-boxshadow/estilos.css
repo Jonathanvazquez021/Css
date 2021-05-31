@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fafafa;
+}
+
+.img{
+    display: block;
+    width: 400px;
+    margin: 30px auto;
+    /* box-shadow: 8px 8px 12px rgba(6, 24, 129, 0.513); */
+    box-shadow:3px 3px 10px rgba(0,0,0, .75);
+    /*
+    box-shadow: ;  Añade efectos de sombra al rededor del marco de un elemento o del borde 
+    box-shadow: h-offset; desplazamiento horizontal de la sombra.
+    box-shadow: v-offset; desplazamiento vertical de la sombre.
+    box-shadow: blur;  indica que tanto se va a difuminar la sombra.
+    box-shadow: spread; va definir que tanto se va a esparcir la sombra.
+    box-shadow: color; el color de la sombra.
+    Notas:
+    Para que box-shadow funcione puede ser solo con 2 valores;
+    */
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin:30px;
+    background: steelblue;
+    /* box-shadow: h-offset v-offset blur spread color; */
+    /* box-shadow:100px 100px 0 0 crimson,
+                100px 0 darkblue,
+                0 100px darkgoldenrod ; */
+    box-shadow: 3px 2px 12px  crimson;
+}

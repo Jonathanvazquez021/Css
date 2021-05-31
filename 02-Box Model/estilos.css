@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; /* Respeta el tamaño asiganado, aunque se le agrege el padding lo respeta y no modifica el tamaño, 
+    /* hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente.*/
+}
+
+
+.box{
+    width: 300px;
+    height:150px ;
+}
+
+.box1{
+    background: steelblue;
+    border: 1px solid black;
+     
+    /* 
+    Margin se va a descomponer en la siguiente forma:
+    margin-top: 50px;
+    margin-bottom:30px;
+    margin-right: 25px; 
+    margin-left: 30px;
+
+    y margin lo compone de la siguiente manera:
+
+    margin:top right bottom left;
+
+    margin: 50px 30px 25px 30px;
+             t   r     b     l
+
+    */
+
+  
+
+    /*  */
+    /* margin: 0 auto; */
+    /* margin-bottom: 50px; */
+   
+}
+
+
+
+.box2{
+    padding: 20px;
+    background: REBECCAPURPLE;
+    /* color: white; */
+    margin-top: 30px;
+    margin-left: 20px;
+    overflow: hidden; /* Todo lo que salga de la caja lo va a esconder */
+    border: 2px solid steelblue;
+}
